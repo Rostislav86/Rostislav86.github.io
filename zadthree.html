@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zadthree.css">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>ЗАО Птицефабрика №1</h1>
+    <div class="container">
+        <form>
+            <ul class="flex-outer">
+            <li>
+                <label for="first-name">Фамилия</label>
+                <input style="width: 250px;" type="text" id="first-name">
+            </li>
+            <li>
+                <label for="inicials">Инициалы</label>
+                <input style="width: 250px;" type="text" id="inicials">
+            </li>
+            <li>
+                <label for="password">Пароль</label>
+                <input style="width: 250px;" type="password" id="password">
+            </li>
+            <li>
+                <label for="phone">Адрес получателя</label>
+                <input style="width: 450px;" type="text" id="phone">
+            </li>
+            <li>
+                <label for="count">Количество</label>
+                <input style="width: 100px;" type="text" id="count">
+            </li>
+            <li>
+                <label for="type">Тип</label>
+                <select>
+                    <option>Куриные</option>
+                    <option>Свиные</option>
+                </select>
+                <select>
+                    <option>Отборные</option>
+                    <option>Не отборные</option>
+                  </select>
+            </li>
+            <li>
+                <label for="order">Доставка</label>
+                <input style="flex: 0" type="radio" id="contactChoice1" name="contact" value="email">
+                <label style="flex: 0" or="contactChoice1">Почтой</label>
+                <input style="flex: 0" type="radio" id="contactChoice1" name="contact" value="phone">
+                <label style="flex: 0" for="contactChoice1">Электронно</label>
+                <input style="flex: 0" type="radio" id="contactChoice1" name="contact" value="mail">
+                <label style="flex: 0" for="contactChoice1">Курьером</label>
+            </li>
+            <li>
+                <p>Требуется накладная</p>
+                <ul class="flex-inner">
+                <li>
+                    <input type="checkbox" id="yes">
+                    <label for="yes">Да</label>
+                </li>
+                </ul>
+            </li>
+            <li>
+                <label for="message">Дополнительная информация</label>
+                <textarea rows="6" id="message" style="width: 550px;"></textarea>
+            </li>
+            
+            <li style="margin-left: 120px; display: block;">
+                <button type="submit">Заказать</button>
+                <button type="submit">Отменить</button>
+            </li>
+            </ul>
+        </form>
+        </div>
+</body>
+</html>

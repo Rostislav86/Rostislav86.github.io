@@ -1,0 +1,57 @@
+body {
+  width: 1800px;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.avatar {
+  top: 10px;
+  left: 20px;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  padding: 10px 100px;
+}
+
+main {
+  padding: 0 50px;
+  width: 1800px;
+  background-color: #FFEBCD;
+}
+
+footer {
+  width: 1800px;
+  margin-top: 35px;
+  padding-top: 15px;
+  color: #aaaaaa;
+  border-top: 2px solid #aaaaaa;
+}
+
+footer {
+  min-height: 50px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+}
+
+.info {
+  float: left;
+  padding: 10px 80px;
+}
+
+.copyright {
+  float: right;
+  padding-top: 5px;
+  font-size: 16px;
+  padding: 10px 10px;
+}
